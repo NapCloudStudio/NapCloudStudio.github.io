@@ -20,10 +20,10 @@
 
 .grid-container {
   display: grid;
-  height: 97vh;
+  height: auto;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 1fr);
-  gap: 10px;
+  gap: 20px;
   grid-template-areas:
     "header"
     "article"
@@ -41,7 +41,7 @@
     height: 97vh;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 4fr 3fr 1fr;
-    gap: 10px;
+    gap: 20px;
     grid-template-areas:
       "header header"
       "article aside"
@@ -59,7 +59,7 @@
     height: 97vh;
     grid-template-columns: repeat(3fr, 1fr);
     grid-template-rows: 1fr 4fr 3fr 1fr;
-    gap: 10px;
+    gap: 20px;
     grid-template-areas:
       "header header header"
       "article article article"

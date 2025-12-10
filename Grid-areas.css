@@ -37,7 +37,7 @@
     "footer";
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1000px) {
   .grid-container {
     display: grid;
     height: 97vh;
@@ -72,5 +72,6 @@
   body {
     background: red;
   }
-  */
+  
 }
+*/

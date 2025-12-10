@@ -9,7 +9,9 @@
 .section {
   grid-area: section;
 }
-
+.section-project {
+  grid-area: section-project;
+}
 .aside {
   grid-area: aside;
 }
